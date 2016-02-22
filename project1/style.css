@@ -1,0 +1,115 @@
+*{
+	font-family: Din; 
+
+}
+
+header {
+        padding: 10px; 
+        width: 100%;
+        text-align: center;
+        position:fixed;
+}
+
+.part1{
+	margin: 50px; 
+	border: dashed 10px yellow;
+}
+
+.part2{
+     margin:50px;
+     border: dashed 10px pink;
+     text-align: right;
+}
+
+.header{
+         color:blue;
+         text-align: start;
+         border-radius: 5px;
+         border: 2px solid blue;
+         width: 50px;
+         height: 50px;
+
+}
+
+.first1{
+        color: violet; 
+        margin-left: 100px; 	
+}
+
+.first2{
+        color: green; 
+        margin-left: 200px; 	
+}
+
+.title{ 
+	   
+	    padding-top: 500px;
+	    padding-left: 200px;
+
+}
+.people{
+         position: fixed; 
+
+}
+
+.line1{
+        border: solid blue;
+        float: left ; 
+        text-align: center;
+        padding-top: 50px;
+        border-radius: 5px;
+    }
+
+
+.line2{
+        
+        margin-left: 400px;
+        padding-top: 20%;
+        color: blue; 
+
+
+
+
+}
+
+.title4{
+            text-align: center;
+            position:fixed;
+            padding: 50px; 
+}
+
+.people4{
+
+         text-align: center;
+            position:fixed;
+        padding-left: 400px;
+        padding-top: 200px;   
+
+}
+
+.line4{
+        text-align: center;   
+}
+
+.add{
+      border:2px dashed pink;
+      width: 500px;    
+}
+
+.add5{
+    border:10px dotted yellow;
+    text-align: center;
+
+}
+
+.title5{
+         background-color: pink;
+         clear: both;  
+}
+
+.line5{
+        margin: 100px;
+        text-decoration: underline;
+
+          
+}
