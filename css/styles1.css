@@ -1,0 +1,128 @@
+html { box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: inherit; }
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arialic Hollow, arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Typography */
+a {
+    color: 46def9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+/* Header + Navigation */
+header {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    float: left;
+    font-size: 2em;
+    margin-top: 80px;
+    margin-left: -90px;
+    webkit-transform: rotate(-90deg);
+  moz-transform: rotate(-90deg);
+  ms-transform: rotate(-90deg);
+  o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    font-size: 2em;
+}
+
+/* Layout */
+.container {
+    max-width: 980px;
+    margin: 60px auto;
+}
+
+ul.thumbnails {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul.thumbnails li.thumb {
+    margin: 50px;
+    width: 80%;
+
+}
+
+ul.thumbnails li.thumb p.title{
+     font-family: din;
+     margin:10%;
+}
+
+h2.project-title{
+    font-family: DIN Alternate;
+    font-size: 60px;
+    font-weight: bold;
+    position:absolute;
+    float:left;
+    left:150px;
+    margin-top: 300px
+
+}
+
+/* Footer */
+footer {
+    max-width: 980px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 780px) {
+    header nav {
+        position: fixed;
+        float: left;
+        bottom: 20px;
+    }
+    header nav ul li {
+        margin: 0px 0px 5px;
+        display: block;
+    }
+
+    
+
+
+}
+
+
+
+
